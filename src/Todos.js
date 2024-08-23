@@ -6,6 +6,7 @@ import "../src/Todos.css"
 const Todos = () => {
     const [newInputdata, SetInputData] = useState()
     const [showTodos, SetShowTodos] = useState([])
+    
 
     // jo bhi hum input par typekare gay wo hum target kar sakhay hai event ki help sai
     const inputData = (event) => {
